@@ -100,7 +100,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Why Choose Prestar</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're committed to providing financial help with dignity and respect.
+              We&apos;re committed to providing financial help with dignity and respect.
             </p>
           </div>
 
@@ -177,7 +177,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-blue-50 rounded-lg p-6">
               <p className="italic text-gray-700 mb-4">
-                "Prestar helped me bridge a difficult gap when I was between jobs. The interest-free loan was a lifesaver, and the financial education resources helped me create a better budget."
+                &quot;Prestar helped me bridge a difficult gap when I was between jobs. The interest-free loan was a lifesaver, and the financial education resources helped me create a better budget.&quot;
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-blue-200 rounded-full mr-3"></div>
@@ -190,7 +190,7 @@ export default function Home() {
 
             <div className="bg-blue-50 rounded-lg p-6">
               <p className="italic text-gray-700 mb-4">
-                "As a student, I was struggling to afford essentials while paying tuition. Prestar's interest-free loan helped me focus on my studies without worrying about where my next meal would come from."
+                &quot;As a student, I was struggling to afford essentials while paying tuition. Prestar&apos;s interest-free loan helped me focus on my studies without worrying about where my next meal would come from.&quot;
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-blue-200 rounded-full mr-3"></div>
@@ -203,7 +203,7 @@ export default function Home() {
 
             <div className="bg-blue-50 rounded-lg p-6">
               <p className="italic text-gray-700 mb-4">
-                "After an unexpected medical emergency, I couldn't work for several weeks. Prestar's quick approval process meant I could still provide for my family during recovery."
+                &quot;After an unexpected medical emergency, I couldn&apos;t work for several weeks. Prestar&apos;s quick approval process meant I could still provide for my family during recovery.&quot;
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-blue-200 rounded-full mr-3"></div>

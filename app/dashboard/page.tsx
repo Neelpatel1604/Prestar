@@ -129,7 +129,7 @@ export default function DashboardPage() {
               <CardContent>
                 <div className="bg-blue-50 rounded-lg p-4">
                   <p className="text-sm text-gray-700 mb-3">
-                    "Create a 50/30/20 budget: 50% for needs, 30% for wants, and 20% for savings and debt repayment."
+                    &quot;Create a 50/30/20 budget: 50% for needs, 30% for wants, and 20% for savings and debt repayment.&quot;
                   </p>
                   <Button size="sm" variant="outline" className="w-full" asChild>
                     <Link href="/education/articles">More Tips</Link>

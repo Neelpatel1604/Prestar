@@ -15,7 +15,7 @@ export default function NotFound() {
           </div>
           <h1 className="text-2xl font-bold mb-3">Page Not Found</h1>
           <p className="text-gray-600 mb-6">
-           Hang tight, we're bringing it to you soon. The page you're looking for is just around the corner! .
+           Hang tight, we&apos;re bringing it to you soon. The page you&apos;re looking for is just around the corner!
           </p>
           <div className="space-y-3">
             <Button className="w-full" asChild>

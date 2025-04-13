@@ -1,14 +1,15 @@
 import Link from 'next/link'
 import { Button } from './ui/button'
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from './ui/navigation-menu'
-import { cn } from '@/lib/utils'
-import { User } from 'lucide-react'
+import Image from 'next/image'
 
 export function Header() {
   return (
     <header className="border-b border-border bg-white py-3">
       <div className="container flex items-center justify-between">
-        <Link href="/"><img src="/OriginalLogo.png" alt="Prestar Logo" className="w-27.43 h-13" /></Link>
+        <Link href="/" className="text-2xl font-bold text-blue-600">
+          <Image src="/OriginalLogo.png" alt="Prestar Logo" width={110} height={52} />
+        </Link>
         
         <NavigationMenu>
           <NavigationMenuList>

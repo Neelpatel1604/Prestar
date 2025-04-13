@@ -29,7 +29,7 @@ export default function Error({
           </div>
           <h1 className="text-2xl font-bold mb-3">Something Went Wrong</h1>
           <p className="text-gray-600 mb-6">
-            We will bring that soon. We're currently working on this feature.
+            We will bring that soon. We&apos;re currently working on this feature.
           </p>
           <div className="space-y-3">
             <Button 

@@ -1,7 +1,7 @@
+'use client';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '../ui/card'
-import { Progress } from '../ui/progress'
 import { Button } from '../ui/button'
-import { ArrowRight, TrendingUp, LightbulbIcon } from 'lucide-react'
+import { ArrowRight, LightbulbIcon } from 'lucide-react'
 import Link from 'next/link'
 
 interface FinancialWellnessCardProps {

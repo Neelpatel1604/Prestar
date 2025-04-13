@@ -1,3 +1,4 @@
+'use client';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '../ui/card'
 import { Progress } from '../ui/progress'
 import { Button } from '../ui/button'

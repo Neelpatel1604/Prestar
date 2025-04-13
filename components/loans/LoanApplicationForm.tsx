@@ -7,7 +7,7 @@ import { Label } from '../ui/label'
 import { Textarea } from '../ui/textarea'
 import { RadioGroup, RadioGroupItem } from '../ui/radio-group'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../ui/select'
-import { CheckCircle, Coffee, LayoutDashboard, CircleDollarSign, FileText, ShoppingCart, Utensils, Send } from 'lucide-react'
+import { CheckCircle, LayoutDashboard, CircleDollarSign, FileText, ShoppingCart, Send } from 'lucide-react'
 
 // Define the steps for the loan application
 const steps = [
@@ -382,7 +382,7 @@ export function LoanApplicationForm() {
             </div>
             <h3 className="text-xl font-bold mb-2">Application Submitted!</h3>
             <p className="text-center text-gray-600 mb-6">
-              Your loan application has been successfully submitted. We'll review it and get back to you within 24 hours.
+              Your loan application has been successfully submitted. We&apos;ll review it and get back to you within 24 hours.
             </p>
             <div className="bg-blue-50 rounded-lg p-4 w-full">
               <h4 className="font-medium mb-2">What happens next?</h4>
@@ -393,7 +393,7 @@ export function LoanApplicationForm() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="bg-blue-200 rounded-full text-blue-700 w-5 h-5 flex items-center justify-center flex-shrink-0 mt-0.5">2</span>
-                  <span>You'll receive an email with the decision and next steps.</span>
+                  <span>You&apos;ll receive an email with the decision and next steps.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="bg-blue-200 rounded-full text-blue-700 w-5 h-5 flex items-center justify-center flex-shrink-0 mt-0.5">3</span>

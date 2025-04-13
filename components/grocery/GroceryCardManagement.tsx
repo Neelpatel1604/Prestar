@@ -1,3 +1,4 @@
+'use client';
 import { useState } from 'react'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '../ui/card'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/tabs'
@@ -27,8 +28,8 @@ const mockCardData = {
 }
 
 export function GroceryCardManagement() {
-  const [activeTab, setActiveTab] = useState('card')
-  
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [activeTab, setActiveTab] = useState<string>('card')
   const formatDate = (date: Date) => {
     return new Intl.DateTimeFormat('en-CA', { 
       year: 'numeric', 

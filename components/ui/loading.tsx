@@ -18,7 +18,7 @@ export function PageLoading() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[60vh]">
       <LoadingSpinner size="large" />
-      <p className="mt-4 text-gray-600">We're getting everything ready...</p>
+      <p className="mt-4 text-gray-600">We&apos;re getting everything ready...</p>
     </div>
   )
 } 
